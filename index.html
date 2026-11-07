@@ -44,7 +44,6 @@
             margin-bottom: 25px;
         }
 
-        /* Navigation & Header */
         .header-title {
             text-align: center;
             margin-bottom: 30px;
@@ -58,7 +57,6 @@
             margin-bottom: 10px;
         }
 
-        /* Page Architecture */
         .page {
             display: none;
         }
@@ -67,7 +65,6 @@
             display: block;
         }
 
-        /* Peta Konsep Grid */
         .concept-map-section {
             margin: 40px 0;
         }
@@ -113,7 +110,6 @@
             margin-bottom: 10px;
         }
 
-        /* Tabel Observasi */
         .table-wrapper {
             width: 100%;
             overflow-x: auto;
@@ -153,7 +149,6 @@
             text-align: center;
         }
 
-        /* Halaman Detail Materi */
         .materi-header {
             border-bottom: 2px solid var(--primary);
             padding-bottom: 15px;
@@ -288,3 +283,177 @@
                                 <td>Menyediakan informasi, teori, dan materi bacaan dalam format digital.</td>
                                 <td>Menghemat kertas, mudah dibawa dalam satu perangkat, praktis dicari menggunakan fitur search.</td>
                             </tr>
+                            <tr style="cursor:pointer;" onclick="showPage('materi3')">
+                                <td class="text-center">3</td>
+---
+
+### 📥 BAGIAN 2: Tempel Tepat di Bawah Bagian 1
+Langsung sambung kodenya dengan menempelkan isi teks di bawah ini ke bagian paling akhir dari file `index.html` Anda:
+
+```html
+        <!-- ================= HALAMAN MATERI 1 ================= -->
+        <div id="page-materi1" class="page">
+            <div class="materi-header">
+                <h2>1. Video Pembelajaran (Audiovisual)</h2>
+                <button class="btn-back" onclick="showPage('home')">⬅️ Kembali ke Utama</button>
+            </div>
+            <div class="section-box">
+                <h3>💡 Ide Pengembangan</h3>
+                <p>Membuat video penjelasan materi berdurasi pendek (5-10 menit) yang fokus membedah satu konsep sulit menggunakan ilustrasi grafis yang menarik perhatian audiens.</p>
+            </div>
+            <div class="section-box">
+                <h3>🛠️ Cara Membuat</h3>
+                <ol>
+                    <li>Susun skrip penjelasan tulisan secara runut dan ringkas agar materi padat.</li>
+                    <li>Rekam suara (voiceover) menggunakan mikrofon di dalam ruangan yang hening.</li>
+                    <li>Gabungkan klip rekaman, teks poin utama, dan musik latar pelan menggunakan Canva atau CapCut.</li>
+                </ol>
+            </div>
+            <div class="section-box">
+                <h3>📘 Panduan Lengkap</h3>
+                <p>Pastikan 30 detik pertama video langsung menyampaikan inti masalah untuk mengunci fokus penonton. Gunakan ukuran font teks penjelas yang besar dan kontras agar terbaca jelas lewat layar HP.</p>
+            </div>
+        </div>
+
+        <!-- ================= HALAMAN MATERI 2 ================= -->
+        <div id="page-materi2" class="page">
+            <div class="materi-header">
+                <h2>2. E-Book / Buku Digital (Teks / Dokumen)</h2>
+                <button class="btn-back" onclick="showPage('home')">⬅️ Kembali ke Utama</button>
+            </div>
+            <div class="section-box">
+                <h3>💡 Ide Pengembangan</h3>
+                <p>Menyusun E-book mini berupa rangkuman rumus cepat atau ringkasan glosarium istilah penting yang siap diunduh oleh para siswa kapan saja.</p>
+            </div>
+            <div class="section-box">
+                <h3>🛠️ Cara Membuat</h3>
+                <ol>
+                    <li>Ketik isi pembahasan secara lengkap di Microsoft Word atau Google Docs.</li>
+                    <li>Desain sampul (cover) dan tata letak halaman yang rapi menggunakan aplikasi Canva.</li>
+                    <li>Simpan dokumen akhir menjadi berkas format PDF agar format tata letak tidak berubah.</li>
+                </ol>
+            </div>
+            <div class="section-box">
+                <h3>📘 Panduan Lengkap</h3>
+                <p>Gunakan struktur daftar isi interaktif yang bisa diklik. Berikan ruang kosong yang cukup di tepi halaman (white space) agar mata pembaca tidak lelah saat membaca dalam waktu lama.</p>
+            </div>
+        </div>
+
+        <!-- ================= HALAMAN MATERI 3 ================= -->
+        <div id="page-materi3" class="page">
+            <div class="materi-header">
+                <h2>3. Infografis Media Sosial (Gambar / Grafis)</h2>
+                <button class="btn-back" onclick="showPage('home')">⬅️ Kembali ke Utama</button>
+            </div>
+            <div class="section-box">
+                <h3>💡 Ide Pengembangan</h3>
+                <p>Membuat infografis perbandingan ringkas (misalnya: Perbedaan Fakta vs Opini) untuk disebarkan sebagai materi edukasi visual lewat Instagram.</p>
+            </div>
+            <div class="section-box">
+                <h3>🛠️ Cara Membuat</h3>
+                <ol>
+                    <li>Kumpulkan data primer dan potong kalimat panjang menjadi poin-poin frasa inti.</li>
+                    <li>Gunakan template infografis vertikal di Canva yang sesuai dengan tema.</li>
+                    <li>Sematkan ikon atau lambang visual yang mendukung penjelasan tiap poin data.</li>
+                </ol>
+            </div>
+            <div class="section-box">
+                <h3>📘 Panduan Lengkap</h3>
+                <p>Batasi penggunaan warna maksimal 3 kombinasi palet warna utama agar desain terlihat harmonis. Fokuskan penyampaian informasi pada visual/gambar daripada teks tulisan yang menumpuk.</p>
+            </div>
+        </div>
+
+        <!-- ================= HALAMAN MATERI 4 ================= -->
+        <div id="page-materi4" class="page">
+            <div class="materi-header">
+                <h2>4. Podcast / Audio Edukasi (Audio)</h2>
+                <button class="btn-back" onclick="showPage('home')">⬅️ Kembali ke Utama</button>
+            </div>
+            <div class="section-box">
+                <h3>💡 Ide Pengembangan</h3>
+                <p>Membuat program audio diskusi santai berdurasi 15 menit yang membahas seputar tips produktivitas belajar atau ulasan buku pelajaran populer.</p>
+            </div>
+            <div class="section-box">
+                <h3>🛠️ Cara Membuat</h3>
+                <ol>
+                    <li>Buat outline daftar pertanyaan atau topik pembicaraan agar obrolan terstruktur.</li>
+                    <li>Rekam suara menggunakan aplikasi perekam HP bawaan atau aplikasi Anchor/Spotify for Podcasters.</li>
+                    <li>Lakukan editing untuk menghilangkan derau gangguan suara (noise) dan tambahkan musik intro pembuat suasana.</li>
+                </ol>
+            </div>
+            <div class="section-box">
+                <h3>📘 Panduan Lengkap</h3>
+                <p>Artikulasi vokal dan intonasi nada bicara adalah kunci utama. Berbicaralah dengan tempo sedang seolah-olah Anda sedang mengobrol langsung secara berhadapan dengan pendengar.</p>
+            </div>
+        </div>
+
+        <!-- ================= HALAMAN MATERI 5 ================= -->
+        <div id="page-materi5" class="page">
+            <div class="materi-header">
+                <h2>5. Situs Web Berita (Teks & Gambar Web)</h2>
+                <button class="btn-back" onclick="showPage('home')">⬅️ Kembali ke Utama</button>
+            </div>
+            <div class="section-box">
+                <h3>💡 Ide Pengembangan</h3>
+                <p>Mendirikan portal berita/artikel digital sederhana lingkup sekolah untuk mempublikasikan laporan kegiatan siswa dan karya tulisan ilmiah remaja.</p>
+            </div>
+            <div class="section-box">
+                <h3>🛠️ Cara Membuat</h3>
+                <ol>
+                    <li>Gunakan platform pembuat situs web instan seperti Blogger, WordPress, atau coding manual HTML.</li>
+                    <li>Buat susunan navigasi utama yang ramah pengguna seperti menu Beranda, Kategori, dan Kontak.</li>
+                    <li>Tulis artikel dengan memadukan teks berita yang aktual serta foto dokumentasi asli yang jernih.</li>
+                </ol>
+            </div>
+            <div class="section-box">
+                <h3>📘 Panduan Lengkap</h3>
+                <p>Pastikan performa pemuatan halaman web berlangsung cepat dengan cara memperkecil resolusi dan ukuran gambar (compress) sebelum diunggah ke pustaka situs.</p>
+            </div>
+        </div>
+
+        <!-- ================= HALAMAN MATERI 6 ================= -->
+        <div id="page-materi6" class="page">
+            <div class="materi-header">
+                <h2>6. Game Edukasi / Kuis Interaktif (Aplikasi)</h2>
+                <button class="btn-back" onclick="showPage('home')">⬅️ Kembali ke Utama</button>
+            </div>
+            <div class="section-box">
+                <h3>💡 Ide Pengembangan</h3>
+                <p>Merancang kuis pilihan ganda interaktif berbasis kompetisi skor (leaderboard) pasca kelas selesai guna meninjau kembali pemahaman materi siswa.</p>
+            </div>
+            <div class="section-box">
+                <h3>🛠️ Cara Membuat</h3>
+                <ol>
+                    <li>Siapkan bank soal pertanyaan pilihan ganda beserta kunci jawabannya secara akurat.</li>
+                    <li>Daftar dan buat kuis baru di dalam platform interaktif gratis seperti Kahoot atau Wordwall.</li>
+                    <li>Atur batas pengerjaan waktu per soal dan tambahkan aset gambar visual pembantu di setiap pertanyaan.</li>
+                </ol>
+            </div>
+            <div class="section-box">
+                <h3>📘 Panduan Lengkap</h3>
+                <p>Sesuaikan tingkat kesulitan pertanyaan secara berjenjang (dari mudah ke sulit). Pastikan untuk mengecek ulang seluruh opsi kunci jawaban agar sistem kalkulasi nilai otomatis berjalan tepat.</p>
+            </div>
+        </div>
+
+    </div> <!-- Akhir Container -->
+
+    <!-- Sistem Navigasi Javascript -->
+    <script>
+        function showPage(pageId) {
+            // Sembunyikan seluruh halaman yang ada
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => {
+                page.classList.remove('active');
+            });
+
+            // Munculkan halaman yang dituju
+            const targetPage = document.getElementById('page-' + pageId);
+            if (targetPage) {
+                targetPage.classList.add('active');
+                // Otomatis geser layar kembali ke posisi paling atas
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
